@@ -1,0 +1,25 @@
+[
+  {
+    "source_dataset": "FreedomIntelligence/medical-o1-reasoning-SFT",
+    "mirror": "https://hf-mirror.com/datasets/FreedomIntelligence/medical-o1-reasoning-SFT",
+    "local_dir": "data/raw/medical-o1-reasoning-SFT",
+    "license": "apache-2.0",
+    "fields": {
+      "Question": "question",
+      "Complex_CoT": "cot",
+      "Response": "answer"
+    },
+    "usage": "medical_reasoning_sft_and_process_supervision_source"
+  },
+  {
+    "source_dataset": "FreedomIntelligence/medical-o1-verifiable-problem",
+    "mirror": "https://hf-mirror.com/datasets/FreedomIntelligence/medical-o1-verifiable-problem",
+    "local_dir": "data/raw/medical-o1-verifiable-problem",
+    "license": "apache-2.0",
+    "fields": {
+      "Open-ended Verifiable Question": "question",
+      "Ground-True Answer": "answer"
+    },
+    "usage": "verifiable_qa_and_holdout_candidate_source"
+  }
+]

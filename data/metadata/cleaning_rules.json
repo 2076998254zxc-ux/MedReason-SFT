@@ -1,0 +1,89 @@
+{
+  "min_question_chars": 5,
+  "min_answer_chars": 2,
+  "max_cot_chars": 12000,
+  "risk_keywords": {
+    "emergency_triage": [
+      "chest pain",
+      "respiratory distress",
+      "shortness of breath",
+      "stroke",
+      "coma",
+      "seizure",
+      "shock",
+      "hypotension",
+      "胸痛",
+      "呼吸困难",
+      "卒中",
+      "昏迷",
+      "休克",
+      "抽搐"
+    ],
+    "drug_safety": [
+      "dosage",
+      "dose",
+      "mg",
+      "contraindication",
+      "interaction",
+      "药物",
+      "剂量",
+      "禁忌",
+      "相互作用"
+    ],
+    "pregnancy_child": [
+      "pregnant",
+      "pregnancy",
+      "child",
+      "infant",
+      "neonate",
+      "孕妇",
+      "儿童",
+      "婴儿",
+      "新生儿"
+    ],
+    "mental_health": [
+      "suicide",
+      "self-harm",
+      "自杀",
+      "自伤"
+    ]
+  },
+  "strict_phrase_tags": {
+    "insufficient_information": [
+      "shown in the image",
+      "shown in image",
+      "as shown in figure",
+      "as shown in the figure",
+      "see figure",
+      "see the figure",
+      "见图",
+      "如图所示",
+      "图中所示"
+    ]
+  },
+  "public_health_context_terms": [
+    "infant mortality",
+    "under-5 mortality",
+    "under five mortality",
+    "live births",
+    "birth rate",
+    "mortality rate",
+    "annual parasite incidence",
+    "annual parasite index",
+    "population of",
+    "公共卫生",
+    "死亡率",
+    "出生率",
+    "发病率"
+  ],
+  "non_medical_or_weak_medical_terms": [
+    "gross domestic product",
+    "gdp",
+    "personal consumption expenditures",
+    "net exports",
+    "government purchases",
+    "economic growth",
+    "经济增长",
+    "国内生产总值"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "process_step_types": [
+    "symptom_extraction",
+    "evidence_mapping",
+    "differential_diagnosis",
+    "mechanism_reasoning",
+    "treatment_decision",
+    "contraindication_check",
+    "conclusion_generation",
+    "safety_reminder"
+  ],
+  "validity_labels": [
+    "valid",
+    "partially_valid",
+    "invalid"
+  ],
+  "error_types": [
+    "none",
+    "hallucination",
+    "missing_evidence",
+    "wrong_inference",
+    "unsafe_advice",
+    "unsupported_conclusion"
+  ]
+}
